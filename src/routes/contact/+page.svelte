@@ -19,7 +19,7 @@
 <section class="mt-8 space-y-12">
 	<h1 class="text-center font-bold text-6xl">Contacts</h1>
 	<!-- New paragraph with smaller text -->
-	<p class="text-center text-gray-400 text-sm">Visit me on my social media and get to know me more.</p>
+	<p class="text-center text-white-400 text-sm">Visit me on my social media and get to know me.</p>
 	<ul class="flex justify-center gap-10 mt-6">
 		{#each socials as social}
 			<li>
