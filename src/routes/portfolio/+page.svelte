@@ -1,58 +1,42 @@
 <script lang="ts">
-	const colImages1 = [
-	
+	const portfolioImages = [
 		{
-			alt: "Bowling",
-			src: "Images/bowling.jpg",
-			description: "Bowling Silver Awardee",
+			alt: "Joining Webinar to gain more knowledge ",
+			src: "Portfolio/8-bit-clarity.jpg",
 		},
 		{
-			alt: "Vroom",
-			src: "Images/Vroom 1.jpg",
-			description: "Vroom Reservation System",
+			alt: "Application Development Blog project",
+			src: "Portfolio/blogproject.jpg",
 		},
-		
+		{
+			alt: "Application Development Blog projec",
+			src: "Portfolio/blogproject1.jpg",
+		},
+		{
+			alt: "Latest sports ",
+			src: "Portfolio/bowling.jpg",
+		},
+		{
+			alt: "Vroom reservation application",
+			src: "Portfolio/Vroom.jpg",
+		},
+    
 	];
-
-	const colImages2 = [
-		{
-			alt: "blog",
-			src: "Images/blogproject.jpg",
-			description: "Blogging System homepage",
-		},
-		{
-			alt: "blog-1",
-			src: "Images/blogproject1",
-			description: "Blogging System login",
-		},
-	
-
-	];
-
-
 </script>
 
-<h1 class="text-6xl">Portfolio</h1>
-<p>Here are my projects and activities.</p>
-
-
-<div class="w-full">
-    <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="flex flex-col gap-4">
-            {#each colImages1 as colImage}
-           <div class="w-full h-fit overflow-hidden rounded-lg">
-                <img src={colImage.src} alt={colImage.alt} class="w-full hover:scale-110 transition-transform duration-300" loading="lazy">
-                <p class="text-center text-white mt-2">{colImage.description}</p>
-            </div>
-            {/each}
+<h1 class="text-4xl text-center">Portfolio</h1>
+<p class="text-center mb-8">Here are my Project, Activities and Sports that I have worked on:</p>
+<div class="w-full max-w-4xl mx-auto">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+        {#each portfolioImages as portfolioImage (portfolioImage.src)}
+        <div class="w-full h-fit overflow-hidden rounded-lg text-center">
+            <img 
+                src={portfolioImage.src} 
+                alt={portfolioImage.alt} 
+                class="w-full h-80 object-contain hover:scale-110 transition-transform duration-300 mx-auto" 
+            >
+            <p class="mt-4 text-lg">{portfolioImage.alt}</p>
         </div>
-        <div class="flex flex-col gap-4">
-            {#each colImages2 as colImage}
-            <div class="w-full h-fit overflow-hidden rounded-lg">
-                <img src={colImage.src} alt={colImage.alt} class="w-full hover:scale-110 transition-transform duration-300" loading="lazy">
-                <p class="text-center text-white mt-2">{colImage.description}</p>
-            </div>
-            {/each}
-        </div>
+        {/each}
     </div>
 </div>
