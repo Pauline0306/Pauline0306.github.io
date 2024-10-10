@@ -1,10 +1,6 @@
 <script lang="ts">
 	const colImages1 = [
-		{
-			alt: "8-bit-Clarity ",
-			src: "Images/8-bit-clarity.jpg",
-			description: "8-bit-Clarity Webinar",
-		},
+	
 		{
 			alt: "Bowling",
 			src: "Images/bowling.jpg",
