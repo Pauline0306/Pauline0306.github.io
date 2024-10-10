@@ -22,14 +22,6 @@
 			I enjoy hanging out with my friends, spending time with them, and talking about life.
 		</p>
 
-		<p>
-		  I'm a simple girl who doesn't know how to put on makeup or ride a bike, but I'm a little sporty.
-          I know how to play basketball, bowling, and track and field.
-		  I love watching sunsets, visiting the beach, and being in nature. 
-          I'm also interested in traveling to different places here in the Philippines.
-		  I enjoy hanging out with my friends, spending time with them, and talking about life.
-		</p>
-
 		<p>I'm looking forward to the coming years, where I see myself becoming a web developer. 
 			This portfolio will be filled with posts of my achievements and successes in life. 
             Nothing is impossible—have faith, keep trusting God, 
