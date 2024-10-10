@@ -1,3 +1,6 @@
+<h1 class="text-4xl text-center mb-8">About</h1>
+<div class="flex flex-col items-center"></div>
+  
 <div>
     <img src="pau1.jpg" alt="pawwii" class="w-full h-auto max-w-sm rounded-lg mx-auto" />
 </div>
