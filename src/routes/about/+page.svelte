@@ -1,4 +1,4 @@
-<h1 class="text-4xl text-center mb-8">About</h1>
+<h1 class="text-4xl text-center mb-4">About</h1>
 <div class="flex flex-col items-center"></div>
   
 <div>
