@@ -15,12 +15,7 @@
 		{
 			alt: "Latest sports ",
 			src: "Portfolio/bowling.jpg",
-		},
-		{
-			alt: "Vroom reservation application",
-			src: "Portfolio/Vroom 1.jpg",
-		},
-    
+		} 
 	];
 </script>
 
